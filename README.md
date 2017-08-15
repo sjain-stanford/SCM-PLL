@@ -11,12 +11,13 @@ Journal of Control, Automation and Electrical Systems (Springer) 2014
 Author's copy of the published papers is attached for personal use only. **The final publication is available at link.springer.com**.
 
 ### Demo Videos
-1. [**Applet**](https://drive.google.com/file/d/0BytpYFU2BgsjVzlPdkVONjlPVVU/view?usp=sharing) (serves as a learning tool to compare 5 PLL algorithms and their performance to 5 different grid imperfections using 4 variables)
 
-2. [**Final Demo**](https://drive.google.com/file/d/0BytpYFU2BgsjeGNnaHhkNS1BYm8/view?usp=sharing) (showing 3D plots for a range of frequency step and phase jumps, and the optimized loop filter parameters)
+* [**Applet**](https://drive.google.com/file/d/0BytpYFU2BgsjVzlPdkVONjlPVVU/view?usp=sharing) (serves as a learning tool to compare 5 PLL algorithms and their performance to 5 different grid imperfections using 4 variables)
 
-3. [**MSP430 Sine DAC**](https://drive.google.com/file/d/0BytpYFU2BgsjRkxQd0lYdF9DVEk/view?usp=sharing)
+* [**Final Demo**](https://drive.google.com/file/d/0BytpYFU2BgsjeGNnaHhkNS1BYm8/view?usp=sharing) (showing 3D plots for a range of frequency step and phase jumps, and the optimized loop filter parameters)
 
-4. [**MSP430 Sine PWM**](https://drive.google.com/file/d/0BytpYFU2BgsjbzRSeFYtUjJWSDQ/view?usp=sharing)
+* [**MSP430 Sine DAC**](https://drive.google.com/file/d/0BytpYFU2BgsjRkxQd0lYdF9DVEk/view?usp=sharing)
 
-5. [**Wiener v/s proposed SCM method**](https://drive.google.com/file/d/0BytpYFU2BgsjSTB4eDdMYWpEb3M/view?usp=sharing)
+* [**MSP430 Sine PWM**](https://drive.google.com/file/d/0BytpYFU2BgsjbzRSeFYtUjJWSDQ/view?usp=sharing)
+
+* [**Wiener v/s proposed SCM method**](https://drive.google.com/file/d/0BytpYFU2BgsjSTB4eDdMYWpEb3M/view?usp=sharing)
