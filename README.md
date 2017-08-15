@@ -1,6 +1,6 @@
 # SCM-PLL
 
-This repository contains code for the paper
+This repository contains code for simulations and hardware implementation for the paper
 
 **A Novel Self-Consistent Model Based Optimal Filter Design for the Improved Dynamic Performance of 3-phase PLLs for Phase Tracking Under Grid Imperfections** <br>
 [Part 1](http://dx.doi.org/10.1007/s40313-014-0137-3) [Part 2](http://dx.doi.org/10.1007/s40313-014-0136-4) <br>
