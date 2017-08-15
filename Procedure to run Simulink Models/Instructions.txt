@@ -1,0 +1,22 @@
+//***************************************************************************************
+//  SRF PLL Design and Optimization - A simulation journey to enlightenment!
+//
+//  Sambhav R Jain (sambhav.eee@gmail.com)
+//  Pradhyumna Ravikirthi (pradhyumnarao@gmail.com)
+//  NIT Trichy
+//  May 2012
+//
+//***************************************************************************************
+
+PLL comparison
+Steps:
+1. Run PLL_Init_complete.m (Filter design)
+2. Now open PLL_complete.mdl, and simulate this model (Press 'play' button)
+3. Once Step 2 is complete, run PLL_Plot.m (Plot tool)
+
+Rest is self-explanatory! Explore, learn and spread!
+
+3D lookup table for self-consistent model based filter optimization
+Steps:
+1. Run plot3D_selfconsistent_cardan_complete.m
+2. Wait for it to complete (takes time depending on the limits and aggressiveness of computation)

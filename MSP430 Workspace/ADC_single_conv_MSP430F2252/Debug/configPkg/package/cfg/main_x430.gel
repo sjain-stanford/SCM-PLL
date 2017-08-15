@@ -1,0 +1,13 @@
+XDC_open() {
+    GEL_ProjectLoad("E:/proj/MSP430_workspace/ADC_single_conv_MSP430F2252/Debug/configPkg/package/configPkg.pjt");
+    GEL_ProjectLoad("E:/proj/MSP430_workspace/ADC_single_conv_MSP430F2252/Debug/configPkg/package/cfg/main_x430.pjt");
+    GEL_ProjectSetActive("E:/proj/MSP430_workspace/ADC_single_conv_MSP430F2252/Debug/configPkg/package/cfg/main_x430.pjt");
+}
+XDC_close() {
+    GEL_ProjectClose("E:/proj/MSP430_workspace/ADC_single_conv_MSP430F2252/Debug/configPkg/package/configPkg.pjt");
+    GEL_ProjectClose("E:/proj/MSP430_workspace/ADC_single_conv_MSP430F2252/Debug/configPkg/package/cfg/main_x430.pjt");
+}
+menuitem "XDC Package"
+hotmenu load_executable () { GEL_Load("E:/proj/MSP430_workspace/ADC_single_conv_MSP430F2252/Debug/configPkg/main.x430"); }
+hotmenu open_project () { XDC_open(); }
+hotmenu close_project () { XDC_close(); }

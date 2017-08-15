@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project msp430g2x33_adc10_14 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../msp430g2x33_adc10_14.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="msp430g2x33_adc10_14.pp"  "../msp430g2x33_adc10_14.c"
+'Finished building: ../msp430g2x33_adc10_14.c'
+' '
+'Building target: msp430g2x33_adc10_14.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"msp430g2x33_adc10_14.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "msp430g2x33_adc10_14.out"  "./msp430g2x33_adc10_14.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: msp430g2x33_adc10_14.out'
+' '
+
+**** Build Finished ****

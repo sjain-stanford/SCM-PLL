@@ -1,0 +1,24 @@
+
+**** Build of configuration Debug for project msp430x22x4_ta_16 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../msp430x22x4_ta_16.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430F2252__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="msp430x22x4_ta_16.pp"  "../msp430x22x4_ta_16.c"
+'Finished building: ../msp430x22x4_ta_16.c'
+' '
+'Building target: msp430x22x4_ta_16.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430F2252__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"msp430x22x4_ta_16.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "msp430x22x4_ta_16.out"  "./msp430x22x4_ta_16.obj" -l"libc.a" "../lnk_msp430f2252.cmd" 
+<Linking>
+'Finished building target: msp430x22x4_ta_16.out'
+' '
+C:/ti/ccsv5/utils/bin/gmake --no-print-directory post-build
+'Create flash image: Intel-HEX'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/hex430" -i "msp430x22x4_ta_16.out" -o "msp430x22x4_ta_16.hex" -order MS -romwidth 16
+Translating to Intel format...
+   "msp430x22x4_ta_16.out"   ==> .text
+   "msp430x22x4_ta_16.out"   ==> .reset
+' '
+
+**** Build Finished ****

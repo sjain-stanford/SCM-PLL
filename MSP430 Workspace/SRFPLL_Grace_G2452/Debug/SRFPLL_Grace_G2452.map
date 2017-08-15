@@ -1,0 +1,346 @@
+******************************************************************************
+                  MSP430 Linker PC v4.0.0                      
+******************************************************************************
+>> Linked Fri May 11 20:26:53 2012
+
+OUTPUT FILE NAME:   <SRFPLL_Grace_G2452.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 0000e746
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  SFR                   00000000   00000010  00000000  00000010  RWIX
+  PERIPHERALS_8BIT      00000010   000000f0  00000000  000000f0  RWIX
+  PERIPHERALS_16BIT     00000100   00000100  00000000  00000100  RWIX
+  RAM                   00000200   00000100  0000004e  000000b2  RWIX
+  INFOD                 00001000   00000040  00000000  00000040  RWIX
+  INFOC                 00001040   00000040  00000000  00000040  RWIX
+  INFOB                 00001080   00000040  00000000  00000040  RWIX
+  INFOA                 000010c0   00000040  00000000  00000040  RWIX
+  FLASH                 0000e000   00001fe0  00000878  00001768  RWIX
+  INT00                 0000ffe0   00000002  00000000  00000002  RWIX
+  INT01                 0000ffe2   00000002  00000000  00000002  RWIX
+  INT02                 0000ffe4   00000002  00000000  00000002  RWIX
+  INT03                 0000ffe6   00000002  00000000  00000002  RWIX
+  INT04                 0000ffe8   00000002  00000000  00000002  RWIX
+  INT05                 0000ffea   00000002  00000000  00000002  RWIX
+  INT06                 0000ffec   00000002  00000000  00000002  RWIX
+  INT07                 0000ffee   00000002  00000000  00000002  RWIX
+  INT08                 0000fff0   00000002  00000000  00000002  RWIX
+  INT09                 0000fff2   00000002  00000000  00000002  RWIX
+  INT10                 0000fff4   00000002  00000000  00000002  RWIX
+  INT11                 0000fff6   00000002  00000000  00000002  RWIX
+  INT12                 0000fff8   00000002  00000000  00000002  RWIX
+  INT13                 0000fffa   00000002  00000000  00000002  RWIX
+  INT14                 0000fffc   00000002  00000000  00000002  RWIX
+  RESET                 0000fffe   00000002  00000002  00000000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+xdc.meta   0    00000000    000000e5     COPY SECTION
+                  00000000    000000e5     main_p430.o430 (xdc.meta)
+
+.cinit     0    0000e000    00000000     UNINITIALIZED
+
+.pinit     0    0000e000    00000000     UNINITIALIZED
+
+.bss       0    00000200    0000000e     UNINITIALIZED
+                  00000200    00000006     main.obj (.bss)
+                  00000206    00000004     rts430.lib : _lock.obj (.bss)
+                  0000020a    00000004     ti.targets.msp430.rts430.a430 : boot.o430 (.bss)
+
+.stack     0    000002c0    00000040     UNINITIALIZED
+                  000002c0    00000002     ti.targets.msp430.rts430.a430 : boot.o430 (.stack)
+                  000002c2    0000003e     --HOLE--
+
+.text      0    0000e000    000007f8     
+                  0000e000    0000038e     main.obj (.text:main)
+                  0000e38e    00000130     rts430.lib : fs_add.obj (.text)
+                  0000e4be    000000c2                : fs_mpy.obj (.text)
+                  0000e580    00000068                : fs_toi.obj (.text)
+                  0000e5e8    0000004a                : fs_cmp.obj (.text)
+                  0000e632    00000046                : fs_tou.obj (.text)
+                  0000e678    00000036                : fs_itof.obj (.text)
+                  0000e6ae    00000034     csl.lib : BCSplus_init.obj (.text:BCSplus_init)
+                  0000e6e2    00000034             : GPIO_init.obj (.text:GPIO_init)
+                  0000e716    00000030             : ADC10_init.obj (.text:ADC10_init)
+                  0000e746    0000002a     ti.targets.msp430.rts430.a430 : boot.o430 (.text:_c_int00_noinit_noexit)
+                  0000e770    0000002a                                   : pre_init.o430 (.text:_system_pre_init)
+                  0000e79a    00000020     csl.lib : CSL_init.obj (.text:CSL_init)
+                  0000e7ba    0000001a             : Timer0_A3_init.obj (.text:Timer0_A3_init)
+                  0000e7d4    00000012     rts430.lib : memcpy.obj (.text:memcpy)
+                  0000e7e6    00000008     csl.lib : WDTplus_init.obj (.text:WDTplus_init)
+                  0000e7ee    00000004             : System_init.obj (.text:System_init)
+                  0000e7f2    00000004     rts430.lib : exit.obj (.text:abort)
+                  0000e7f6    00000002                : _lock.obj (.text:_nop)
+
+.const     0    0000e7f8    00000080     
+                  0000e7f8    00000040     main.obj (.const:$P$T0$1)
+                  0000e838    00000040     main.obj (.const:$P$T1$2)
+
+.reset     0    0000fffe    00000002     
+                  0000fffe    00000002     ti.targets.msp430.rts430.a430 : boot.o430 (.reset)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000200   .bss
+0000e000   .text
+0000004a   ADC10AE0
+000001b0   ADC10CTL0
+000001b2   ADC10CTL1
+00000048   ADC10DTC0
+00000049   ADC10DTC1
+000001b4   ADC10MEM
+000001bc   ADC10SA
+0000e716   ADC10_init
+00000057   BCSCTL1
+00000058   BCSCTL2
+00000053   BCSCTL3
+0000e6ae   BCSplus_init
+0000e7f2   C$$EXIT
+00000059   CACTL1
+0000005a   CACTL2
+000010fb   CALBC1_12MHZ
+000010f9   CALBC1_16MHZ
+000010ff   CALBC1_1MHZ
+000010fd   CALBC1_8MHZ
+000010fa   CALDCO_12MHZ
+000010f8   CALDCO_16MHZ
+000010fe   CALDCO_1MHZ
+000010fc   CALDCO_8MHZ
+0000005b   CAPD
+0000e79a   CSL_init
+00000056   DCOCTL
+00000128   FCTL1
+0000012a   FCTL2
+0000012c   FCTL3
+0000e6e2   GPIO_init
+00000000   IE1
+00000002   IFG1
+00000022   P1DIR
+00000025   P1IE
+00000024   P1IES
+00000023   P1IFG
+00000020   P1IN
+00000021   P1OUT
+00000027   P1REN
+00000026   P1SEL
+00000041   P1SEL2
+0000002a   P2DIR
+0000002d   P2IE
+0000002c   P2IES
+0000002b   P2IFG
+00000028   P2IN
+00000029   P2OUT
+0000002f   P2REN
+0000002e   P2SEL
+00000042   P2SEL2
+0000e7ee   System_init
+00000172   TA0CCR0
+00000174   TA0CCR1
+00000176   TA0CCR2
+00000162   TA0CCTL0
+00000164   TA0CCTL1
+00000166   TA0CCTL2
+00000160   TA0CTL
+0000012e   TA0IV
+00000170   TA0R
+0000e7ba   Timer0_A3_init
+0000007a   USICCTL
+0000007a   USICKCTL
+0000007b   USICNT
+00000078   USICTL
+00000078   USICTL0
+00000079   USICTL1
+0000007c   USISR
+0000007d   USISRH
+0000007c   USISRL
+00000120   WDTCTL
+0000e7e6   WDTplus_init
+00000000   __ASM__
+00000060   __ISA__
+00000072   __PLAT__
+00000300   __STACK_END
+00000040   __STACK_SIZE
+00000096   __TARG__
+00000001   __TI_args_main
+00000001   __TI_auto_init
+00000001   __TI_exit
+000000be   __TRDR__
+ffffffff   __binit__
+00000200   __bss__
+ffffffff   __c_args__
+ffffffff   __cinit__
+0000020e   __end__
+0000e7f8   __etext__
+0000e394   __fs_add
+0000e5e8   __fs_cmp
+0000e678   __fs_itof
+0000e4be   __fs_mpy
+0000e38e   __fs_sub
+0000e580   __fs_toi
+0000e632   __fs_tou
+ffffffff   __pinit__
+0000e000   __text__
+0000e746   _c_int00
+0000e746   _c_int00_noinit_noexit
+0000020a   _cleanup_ptr
+0000020c   _dtors_ptr
+00000206   _lock
+0000e7f6   _nop
+0000fffe   _reset_vector
+000002c0   _stack
+0000e770   _system_pre_init
+00000208   _unlock
+0000e7f2   abort
+ffffffff   binit
+ffffffff   cinit
+0000020e   end
+0000e7f8   etext
+0000e000   main
+0000e7d4   memcpy
+ffffffff   pinit
+00000200   vgrid
+00000000   xdc_runtime_Startup__EXECFXN__C
+00000000   xdc_runtime_Startup__RESETFXN__C
+00000000   xdc_runtime_Startup_exec__E
+00000000   xdc_runtime_Startup_reset__I
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   IE1
+00000000   __ASM__
+00000000   xdc_runtime_Startup__EXECFXN__C
+00000000   xdc_runtime_Startup__RESETFXN__C
+00000000   xdc_runtime_Startup_exec__E
+00000000   xdc_runtime_Startup_reset__I
+00000001   __TI_args_main
+00000001   __TI_auto_init
+00000001   __TI_exit
+00000002   IFG1
+00000020   P1IN
+00000021   P1OUT
+00000022   P1DIR
+00000023   P1IFG
+00000024   P1IES
+00000025   P1IE
+00000026   P1SEL
+00000027   P1REN
+00000028   P2IN
+00000029   P2OUT
+0000002a   P2DIR
+0000002b   P2IFG
+0000002c   P2IES
+0000002d   P2IE
+0000002e   P2SEL
+0000002f   P2REN
+00000040   __STACK_SIZE
+00000041   P1SEL2
+00000042   P2SEL2
+00000048   ADC10DTC0
+00000049   ADC10DTC1
+0000004a   ADC10AE0
+00000053   BCSCTL3
+00000056   DCOCTL
+00000057   BCSCTL1
+00000058   BCSCTL2
+00000059   CACTL1
+0000005a   CACTL2
+0000005b   CAPD
+00000060   __ISA__
+00000072   __PLAT__
+00000078   USICTL
+00000078   USICTL0
+00000079   USICTL1
+0000007a   USICCTL
+0000007a   USICKCTL
+0000007b   USICNT
+0000007c   USISR
+0000007c   USISRL
+0000007d   USISRH
+00000096   __TARG__
+000000be   __TRDR__
+00000120   WDTCTL
+00000128   FCTL1
+0000012a   FCTL2
+0000012c   FCTL3
+0000012e   TA0IV
+00000160   TA0CTL
+00000162   TA0CCTL0
+00000164   TA0CCTL1
+00000166   TA0CCTL2
+00000170   TA0R
+00000172   TA0CCR0
+00000174   TA0CCR1
+00000176   TA0CCR2
+000001b0   ADC10CTL0
+000001b2   ADC10CTL1
+000001b4   ADC10MEM
+000001bc   ADC10SA
+00000200   .bss
+00000200   __bss__
+00000200   vgrid
+00000206   _lock
+00000208   _unlock
+0000020a   _cleanup_ptr
+0000020c   _dtors_ptr
+0000020e   __end__
+0000020e   end
+000002c0   _stack
+00000300   __STACK_END
+000010f8   CALDCO_16MHZ
+000010f9   CALBC1_16MHZ
+000010fa   CALDCO_12MHZ
+000010fb   CALBC1_12MHZ
+000010fc   CALDCO_8MHZ
+000010fd   CALBC1_8MHZ
+000010fe   CALDCO_1MHZ
+000010ff   CALBC1_1MHZ
+0000e000   .text
+0000e000   __text__
+0000e000   main
+0000e38e   __fs_sub
+0000e394   __fs_add
+0000e4be   __fs_mpy
+0000e580   __fs_toi
+0000e5e8   __fs_cmp
+0000e632   __fs_tou
+0000e678   __fs_itof
+0000e6ae   BCSplus_init
+0000e6e2   GPIO_init
+0000e716   ADC10_init
+0000e746   _c_int00
+0000e746   _c_int00_noinit_noexit
+0000e770   _system_pre_init
+0000e79a   CSL_init
+0000e7ba   Timer0_A3_init
+0000e7d4   memcpy
+0000e7e6   WDTplus_init
+0000e7ee   System_init
+0000e7f2   C$$EXIT
+0000e7f2   abort
+0000e7f6   _nop
+0000e7f8   __etext__
+0000e7f8   etext
+0000fffe   _reset_vector
+ffffffff   __binit__
+ffffffff   __c_args__
+ffffffff   __cinit__
+ffffffff   __pinit__
+ffffffff   binit
+ffffffff   cinit
+ffffffff   pinit
+
+[122 symbols]

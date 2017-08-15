@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project sample2 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430F2252__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp" --cmd_file="./configPkg/compiler.opt"  "../main.c"
+"../main.c", line 39: warning #112-D: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: sample2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430F2252__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"sample2.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "sample2.out" -l"./configPkg/linker.cmd"  "./main.obj" -l"libc.a" "../lnk_msp430f2252.cmd" 
+<Linking>
+'Finished building target: sample2.out'
+' '
+C:/ti/ccsv5/utils/bin/gmake --no-print-directory post-build
+'Create flash image: Intel-HEX'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/hex430" -i "sample2.out" -o "sample2.hex" -order MS -romwidth 16
+Translating to Intel format...
+   "sample2.out"   ==> .text
+   "sample2.out"   ==> .reset
+' '
+
+**** Build Finished ****

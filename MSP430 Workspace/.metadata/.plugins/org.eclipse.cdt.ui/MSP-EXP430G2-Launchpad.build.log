@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project MSP-EXP430G2-Launchpad ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: C:/ti/ccsv5/ccs_base/msp430/msp430ware_1_00_01_00/examples/boards/MSP-EXP430G2/MSP-EXP430G2-LaunchPad/main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" --silicon_version=msp -g -O3 --opt_for_speed=0 --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --diag_warning=225 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "C:/ti/ccsv5/ccs_base/msp430/msp430ware_1_00_01_00/examples/boards/MSP-EXP430G2/MSP-EXP430G2-LaunchPad/main.c"
+"C:/ti/ccsv5/ccs_base/msp430/msp430ware_1_00_01_00/examples/boards/MSP-EXP430G2/MSP-EXP430G2-LaunchPad/main.c", line 251: error: identifier "TIMERA0_VECTOR" is undefined
+"C:/ti/ccsv5/ccs_base/msp430/msp430ware_1_00_01_00/examples/boards/MSP-EXP430G2/MSP-EXP430G2-LaunchPad/main.c", line 285: error: identifier "TIMERA1_VECTOR" is undefined
+2 errors detected in the compilation of "C:/ti/ccsv5/ccs_base/msp430/msp430ware_1_00_01_00/examples/boards/MSP-EXP430G2/MSP-EXP430G2-LaunchPad/main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

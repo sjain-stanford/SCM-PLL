@@ -1,0 +1,37 @@
+/**
+ *  @fileOverview Grace
+ */
+
+/* need to use the CSL module to generate the CSL code */
+var CSL = xdc.useModule('ti.mcu.msp430.csl.CSL');
+var ADC10 = xdc.useModule('ti.mcu.msp430.csl.adc.ADC10');
+CSL.configApiVersion = "1.00.00";
+
+/* these modules should be part of every project */
+var WDTplus = xdc.useModule('ti.mcu.msp430.csl.watchdog.WDTplus');
+var GPIO = xdc.useModule('ti.mcu.msp430.csl.gpio.GPIO');
+var BCSplus = xdc.useModule('ti.mcu.msp430.csl.clock.BCSplus');
+var System = xdc.useModule('ti.mcu.msp430.csl.system.System');
+
+/* set stack and heap sizes as appropriate for MSP430 */
+Program.sysStack = 0;
+Program.stack = 64;
+Program.heap = 0;
+Program.argSize = 0;
+
+/* Enable global interrupt */
+System.srRegs.SR.GIE = System.srDefs.GIE;
+ADC10.regs.ADC10AE0 = 25;
+ADC10.regs.ADC10CTL0.ADC10ON = ADC10.defs.ADC10ON;
+ADC10.regs.ADC10CTL0.REF2_5V = ADC10.defs.REF2_5V_OFF;
+ADC10.regs.ADC10CTL0.REFON = ADC10.defs.REFON_OFF;
+ADC10.regs.ADC10CTL0.SREF = ADC10.defs.SREF_0;
+GPIO.regs.P1DIR.Bit0 = GPIO.defs.BIT0;
+GPIO.regs.P1DIR.Bit1 = GPIO.defs.BIT1;
+GPIO.regs.P1DIR.Bit2 = GPIO.defs.BIT2;
+GPIO.regs.P1DIR.Bit3 = GPIO.defs.BIT3;
+GPIO.regs.P1DIR.Bit4 = GPIO.defs.BIT4;
+GPIO.regs.P1DIR.Bit5 = GPIO.defs.BIT5;
+GPIO.regs.P1DIR.Bit6 = GPIO.defs.BIT6;
+GPIO.regs.P1DIR.Bit7 = GPIO.defs.BIT7;
+ADC10.regs.ADC10CTL1.ADC10SSEL = ADC10.defs.ADC10SSEL_0;

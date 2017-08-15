@@ -1,0 +1,228 @@
+Inial value of wn =2*pi*1 ------ just (2*pi)
+
+
+Method 3 (optimize both)
+Enter the max. permissible error band, E (rad): 0.02
+Desired settling time, t0 (s): 0.01
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.1
+No. of iterations taken: 44
+Damping ratio, del: 0.598995
+Natural frequency, wn (in rad/s): 443.902931
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -1.634928
+Integral gain, ki = -605.805472
+Time constant, Tau = 2.698767 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.2
+No. of iterations taken: 119
+Damping ratio, del: 0.623553
+Natural frequency, wn (in rad/s): 480.551425
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -1.842469
+Integral gain, ki = -709.964944
+Time constant, Tau = 2.595155 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.3
+No. of iterations taken: 84
+Damping ratio, del: 0.702591
+Natural frequency, wn (in rad/s): 494.256457
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -2.135218
+Integral gain, ki = -751.037928
+Time constant, Tau = 2.843023 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.4
+No. of iterations taken: 72
+Damping ratio, del: 0.763755
+Natural frequency, wn (in rad/s): 509.436526
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -2.392386
+Integral gain, ki = -797.879535
+Time constant, Tau = 2.998431 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.5
+No. of iterations taken: 64
+Damping ratio, del: 0.805112
+Natural frequency, wn (in rad/s): 526.134272
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -2.604595
+Integral gain, ki = -851.040741
+Time constant, Tau = 3.060482 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.6
+No. of iterations taken: 57
+Damping ratio, del: 0.832736
+Natural frequency, wn (in rad/s): 542.592031
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -2.778229
+Integral gain, ki = -905.115469
+Time constant, Tau = 3.069475 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.7
+No. of iterations taken: 28
+Damping ratio, del: 0.851763
+Natural frequency, wn (in rad/s): 557.933065
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -2.922051
+Integral gain, ki = -957.020775
+Time constant, Tau = 3.053278 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.8
+No. of iterations taken: 33
+Damping ratio, del: 0.865392
+Natural frequency, wn (in rad/s): 571.938719
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.043333
+Integral gain, ki = -1005.671546
+Time constant, Tau = 3.026170 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 0.9
+No. of iterations taken: 22
+Damping ratio, del: 0.875532
+Natural frequency, wn (in rad/s): 584.657681
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.147466
+Integral gain, ki = -1050.897806
+Time constant, Tau = 2.995026 ms
+
+
+
+
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.0
+No. of iterations taken: 21
+Damping ratio, del: 0.883326
+Natural frequency, wn (in rad/s): 596.224698
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.238308
+Integral gain, ki = -1092.891608
+Time constant, Tau = 2.963064 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.1
+No. of iterations taken: 28
+Damping ratio, del: 0.889496
+Natural frequency, wn (in rad/s): 606.785118
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.318686
+Integral gain, ki = -1131.949386
+Time constant, Tau = 2.931833 ms
+
+
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.2
+No. of iterations taken: 22
+Damping ratio, del: 0.894498
+Natural frequency, wn (in rad/s): 616.475078
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.390642
+Integral gain, ki = -1168.391032
+Time constant, Tau = 2.901976 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.3
+No. of iterations taken: 20
+Damping ratio, del: 0.898631
+Natural frequency, wn (in rad/s): 625.412228
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.455692
+Integral gain, ki = -1202.513340
+Time constant, Tau = 2.873724 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.4
+No. of iterations taken: 20
+Damping ratio, del: 0.902108
+Natural frequency, wn (in rad/s): 633.695322
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.515008
+Integral gain, ki = -1234.576963
+Time constant, Tau = 2.847135 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.5
+No. of iterations taken: 17
+Damping ratio, del: 0.905073
+Natural frequency, wn (in rad/s): 641.407403
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.569479
+Integral gain, ki = -1264.809454
+Time constant, Tau = 2.822148 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.6
+No. of iterations taken: 16
+Damping ratio, del: 0.907639
+Natural frequency, wn (in rad/s): 648.617771
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.619837
+Integral gain, ki = -1293.405947
+Time constant, Tau = 2.798686 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.7
+No. of iterations taken: 16
+Damping ratio, del: 0.909880
+Natural frequency, wn (in rad/s): 655.384676
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.666632
+Integral gain, ki = -1320.534436
+Time constant, Tau = 2.776628 ms
+
+Max. allowable frequency step: 10
+Enter the max permissible phase jump (rad): 1.8
+No. of iterations taken: 16
+Damping ratio, del: 0.911856
+Natural frequency, wn (in rad/s): 661.757544
+
+
+The designed values of kp, ki and Tau : 
+Proportional gain, kp = -3.710328
+Integral gain, ki = -1346.340680
+Time constant, Tau = 2.755862 ms
+1.8

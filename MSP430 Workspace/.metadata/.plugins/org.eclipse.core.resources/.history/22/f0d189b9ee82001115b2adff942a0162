@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../lnk_msp430f2252.cmd 
+
+C_SRCS += \
+../msp430x22x4_ta_16.c 
+
+OBJS += \
+./msp430x22x4_ta_16.obj 
+
+C_DEPS += \
+./msp430x22x4_ta_16.pp 
+
+C_DEPS__QUOTED += \
+"msp430x22x4_ta_16.pp" 
+
+OBJS__QUOTED += \
+"msp430x22x4_ta_16.obj" 
+
+C_SRCS__QUOTED += \
+"../msp430x22x4_ta_16.c" 
+
+

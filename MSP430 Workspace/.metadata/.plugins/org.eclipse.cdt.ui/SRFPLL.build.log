@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project SRFPLL ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 25: warning #179-D: variable "kp" was declared but never referenced
+"../main.c", line 26: warning #179-D: variable "ki" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: SRFPLL.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2553__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"SRFPLL.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "SRFPLL.out"  "./main.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+'Finished building target: SRFPLL.out'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project SRFPLL_Grace_G2452 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430/include" --define=__MSP430G2452__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp" --cmd_file="./configPkg/compiler.opt"  "../main.c"
+"../main.c", line 140: warning #112-D: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: SRFPLL_Grace_G2452.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430/bin/cl430" -vmsp --abi=coffabi -g --define=__MSP430G2452__ --diag_warning=225 --display_error_number --printf_support=minimal -z -m"SRFPLL_Grace_G2452.map" --stack_size=80 --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430/lib" -i"C:/ti/ccsv5/tools/compiler/msp430/include" --reread_libs --warn_sections --rom_model -o "SRFPLL_Grace_G2452.out" -l"./configPkg/linker.cmd"  "./main.obj" -l"libc.a" "../lnk_msp430g2452.cmd" 
+<Linking>
+'Finished building target: SRFPLL_Grace_G2452.out'
+' '
+
+**** Build Finished ****

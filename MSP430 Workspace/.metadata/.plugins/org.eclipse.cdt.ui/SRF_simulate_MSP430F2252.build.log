@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project SRF_simulate_MSP430F2252 ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+making ../src/csl/csl.lib ...
+gmake[1]: Nothing to be done for `all'.
+
+**** Build Finished ****

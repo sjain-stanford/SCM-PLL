@@ -1,0 +1,1 @@
+ -vmsp -I"C:/ti/grace_1_10_00_17/packages" -I"C:/ti/xdctools_3_22_04_46/packages" -I"E:/proj/MSP430_workspace/SRFPLL_Grace_G2452/Debug/configPkg/.." -IC:/ti/ccsv5/tools/compiler/msp430/include  -Dxdc_target_types__="ti/targets/msp430/std.h" -Dxdc_target_name__=MSP430 -Dxdc_cfg__header__="E:/proj/MSP430_workspace/SRFPLL_Grace_G2452/Debug/configPkg/package/cfg/main_p430.h"
