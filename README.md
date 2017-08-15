@@ -1,1 +1,11 @@
 # SCM-PLL
+
+This repository contains code for the paper
+
+**A Novel Self-Consistent Model Based Optimal Filter Design for the Improved Dynamic Performance of 3-phase PLLs for Phase Tracking Under Grid Imperfections [Part 1](http://dx.doi.org/10.1007/s40313-014-0137-3) [Part 2](http://dx.doi.org/10.1007/s40313-014-0137-3)**
+<br>
+[Sambhav R. Jain](https://bit.ly/sjain-stanford), [Pradhyumna Ravikirthi](https://www.linkedin.com/in/pradhyumna-ravikirthi-3995193a/), [Nagamani Chilakapati](https://scholar.google.com/citations?user=shITP6sAAAAJ&hl=en)
+<br>
+Journal of Control, Automation and Electrical Systems (Springer)
+
+In the context of recent advancements in 3-phase phase-locked loop (PLL) structures to tackle grid imperfections, this paper attempts to shift focus towards dynamic response optimization for fast tracking of disturbed grids, as opposed to Wiener optimization, a trade-off between filtering characteristic and dynamic response. In this respect, an ingenious self-consistent model (SCM) based approach is proposed which explores filter design in the presence of frequency shifts and phase jumps, and facilitates the analytical computation of unique loop filter parameters. Trial and error in filter parameter selection is inconvenient, but more importantly, even rigorous trials would be insufficient in qualifying the non-existence of a better design. Having eliminated trial and error, this novel technique limits transients to user specifications while fixing on an optimum damping ratio, to yield the best fit. The design methodology is applied to three existing 3-phase PLL structures modelled in MATLAB/Simulink, and the proposed method is further evaluated through extensive simulations and performance comparisons with the traditional Wiener approach. To enhance the understanding of model behaviour and the feasibility of practical implementation, comprehensive three-dimensional (3-D) lookup tables are presented. They enable the study of optimized filter parameter variations for a range of grid disturbances, and broaden the application to filter optimization in real-time. In the interest of the reader, this paper is structurally split in two parts. Part 1 covers the premise and theory that explicates the proposed SCM methodology. The detailed analysis and verification of the SCM is covered in Part 2.
