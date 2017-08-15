@@ -8,4 +8,17 @@ This repository contains code for the paper
 <br>
 Journal of Control, Automation and Electrical Systems (Springer)
 
-In the context of recent advancements in 3-phase phase-locked loop (PLL) structures to tackle grid imperfections, this paper attempts to shift focus towards dynamic response optimization for fast tracking of disturbed grids, as opposed to Wiener optimization, a trade-off between filtering characteristic and dynamic response. In this respect, an ingenious self-consistent model (SCM) based approach is proposed which explores filter design in the presence of frequency shifts and phase jumps, and facilitates the analytical computation of unique loop filter parameters. Trial and error in filter parameter selection is inconvenient, but more importantly, even rigorous trials would be insufficient in qualifying the non-existence of a better design. Having eliminated trial and error, this novel technique limits transients to user specifications while fixing on an optimum damping ratio, to yield the best fit. The design methodology is applied to three existing 3-phase PLL structures modelled in MATLAB/Simulink, and the proposed method is further evaluated through extensive simulations and performance comparisons with the traditional Wiener approach. To enhance the understanding of model behaviour and the feasibility of practical implementation, comprehensive three-dimensional (3-D) lookup tables are presented. They enable the study of optimized filter parameter variations for a range of grid disturbances, and broaden the application to filter optimization in real-time. In the interest of the reader, this paper is structurally split in two parts. Part 1 covers the premise and theory that explicates the proposed SCM methodology. The detailed analysis and verification of the SCM is covered in Part 2.
+## Demo Videos
+1. [**Applet**](https://drive.google.com/file/d/0BytpYFU2BgsjVzlPdkVONjlPVVU/view?usp=sharing) Serves as a learning tool to compare 5 PLL algorithms and their performance to 5 different grid imperfections using 4 variables
+
+2. [**Final Demo**](https://drive.google.com/file/d/0BytpYFU2BgsjeGNnaHhkNS1BYm8/view?usp=sharing) Showing 3D plots for a range of frequency step and phase jumps, and the optimized loop filter parameters
+
+3. [**MSP430 Sine using DAC**](https://drive.google.com/file/d/0BytpYFU2BgsjRkxQd0lYdF9DVEk/view?usp=sharing)
+
+4. [**MSP430 Sine using PWM**](https://drive.google.com/file/d/0BytpYFU2BgsjbzRSeFYtUjJWSDQ/view?usp=sharing)
+
+5. [**Wiener v/s proposed SCM method**](https://drive.google.com/file/d/0BytpYFU2BgsjSTB4eDdMYWpEb3M/view?usp=sharing)
+
+6. [**Save Simulink model as svg fig**](https://drive.google.com/file/d/0BytpYFU2Bgsjb2FMd2lqcDc3bWM/view?usp=sharing)
+
+7. [**Compile LaTeX report**](https://drive.google.com/file/d/0BytpYFU2BgsjUnVCZ3lLTVNSdUk/view?usp=sharing)
