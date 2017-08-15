@@ -18,7 +18,3 @@ Journal of Control, Automation and Electrical Systems (Springer) 2014
 4. [**MSP430 Sine PWM**](https://drive.google.com/file/d/0BytpYFU2BgsjbzRSeFYtUjJWSDQ/view?usp=sharing)
 
 5. [**Wiener v/s proposed SCM method**](https://drive.google.com/file/d/0BytpYFU2BgsjSTB4eDdMYWpEb3M/view?usp=sharing)
-
-6. [**Save Simulink model as svg fig**](https://drive.google.com/file/d/0BytpYFU2Bgsjb2FMd2lqcDc3bWM/view?usp=sharing)
-
-7. [**Compile LaTeX report**](https://drive.google.com/file/d/0BytpYFU2BgsjUnVCZ3lLTVNSdUk/view?usp=sharing)
