@@ -6,16 +6,16 @@ This repository contains code for the paper
 <br>
 [Sambhav R. Jain](https://bit.ly/sjain-stanford), [Pradhyumna Ravikirthi](https://www.linkedin.com/in/pradhyumna-ravikirthi-3995193a/), [Nagamani Chilakapati](https://scholar.google.com/citations?user=shITP6sAAAAJ&hl=en)
 <br>
-Journal of Control, Automation and Electrical Systems (Springer)
+Journal of Control, Automation and Electrical Systems (Springer) 2014
 
 ## Demo Videos
 1. [**Applet**](https://drive.google.com/file/d/0BytpYFU2BgsjVzlPdkVONjlPVVU/view?usp=sharing) Serves as a learning tool to compare 5 PLL algorithms and their performance to 5 different grid imperfections using 4 variables
 
 2. [**Final Demo**](https://drive.google.com/file/d/0BytpYFU2BgsjeGNnaHhkNS1BYm8/view?usp=sharing) Showing 3D plots for a range of frequency step and phase jumps, and the optimized loop filter parameters
 
-3. [**MSP430 Sine using DAC**](https://drive.google.com/file/d/0BytpYFU2BgsjRkxQd0lYdF9DVEk/view?usp=sharing)
+3. [**MSP430 Sine DAC**](https://drive.google.com/file/d/0BytpYFU2BgsjRkxQd0lYdF9DVEk/view?usp=sharing)
 
-4. [**MSP430 Sine using PWM**](https://drive.google.com/file/d/0BytpYFU2BgsjbzRSeFYtUjJWSDQ/view?usp=sharing)
+4. [**MSP430 Sine PWM**](https://drive.google.com/file/d/0BytpYFU2BgsjbzRSeFYtUjJWSDQ/view?usp=sharing)
 
 5. [**Wiener v/s proposed SCM method**](https://drive.google.com/file/d/0BytpYFU2BgsjSTB4eDdMYWpEb3M/view?usp=sharing)
 
