@@ -8,7 +8,7 @@ This repository contains code for simulations and hardware implementation for th
 <br>
 Journal of Control, Automation and Electrical Systems (Springer) 2014
 
-Author's copy of the published papers is attached for personal use only. **The final publication is available at link.springer.com**.
+Author's copy of the published papers is attached for personal use only. **The official publication is available at link.springer.com**.
 
 ### Demo Videos
 
